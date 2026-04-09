@@ -1,0 +1,9 @@
+&general
+  startframe={startframe},
+  interval={interval},
+  verbose=1,
+  keep_files={keep_files},
+/
+&pb
+  istrng={istrng},
+/

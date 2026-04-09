@@ -1,0 +1,10 @@
+&general
+  startframe={startframe},
+  interval={interval},
+  verbose=1,
+  keep_files={keep_files},
+/
+&gb
+  igb=8,
+  saltcon={saltcon},
+/
