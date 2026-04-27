@@ -1,8 +1,8 @@
-# mdmm_filter_cuilab
+# MD/MM batch evaluation of binder-receptor complexes
 
-`mdmm_filter_cuilab` is a minimal Python library for batch evaluation of binder-receptor complexes. It preprocesses Rosetta-relaxed designs, runs explicit-solvent OpenMM MD, launches AmberTools `MMPBSA.py` for MM/GBSA or MM/PBSA, and writes ranked summaries.
+This repository contains `mdmm_filter_cuilab`, which is a minimal Python library for batch evaluation of binder-receptor complexes. It preprocesses Rosetta-relaxed designs, runs explicit-solvent OpenMM MD, launches AmberTools `MMPBSA.py` for MM/GBSA or MM/PBSA, and writes ranked summaries.
 
-This repository is a part of ongoing research efforts in ADC design and molecular modeling of tissue transglutaminase 2 (TG2) family and transducer of cdc42-dependent actin assembly (Toca) family in the [Cui Lab](https://cuilab.stanford.edu/research), Stanford University.
+This repository is a part of ongoing research efforts in ADC design and molecular modeling in the [Cui Lab](https://cuilab.stanford.edu/research), Stanford University.
 
 ## Scope
 
