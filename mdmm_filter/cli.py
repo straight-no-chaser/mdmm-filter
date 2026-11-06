@@ -24,7 +24,7 @@ def main() -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="mdmm_filter_cuilab", description="Batch binder evaluation workflow")
+    parser = argparse.ArgumentParser(prog="mdmm_filter", description="Batch binder evaluation workflow")
     subparsers = parser.add_subparsers(dest="command")
 
     run_parser = subparsers.add_parser("run", help="Evaluate all CIF files in a directory")

@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
-from mdmm_filter_cuilab.preprocess import PreprocessError, parse_mmcif_atoms, split_chain_atoms
+from mdmm_filter.preprocess import PreprocessError, parse_mmcif_atoms, split_chain_atoms
 
 
 MMCIF_TEXT = """data_test

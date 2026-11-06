@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from mdmm_filter_cuilab.config import EvalConfig
+from mdmm_filter.config import EvalConfig
 
 
 class ConfigTests(unittest.TestCase):

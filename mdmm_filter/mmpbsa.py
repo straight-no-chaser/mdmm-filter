@@ -132,7 +132,7 @@ def _write_leap_input(path: Path, complex_pdb: Path, receptor_pdb: Path, binder_
 
 def _write_mmpbsa_input(path: Path, cfg: EvalConfig) -> None:
     template_name = "mmpbsa_gbsa.in" if cfg.mmpbsa_mode == "gbsa" else "mmpbsa_pbsa.in"
-    template = (files("mdmm_filter_cuilab") / "templates" / template_name).read_text(encoding="utf-8")
+    template = (files("mdmm_filter") / "templates" / template_name).read_text(encoding="utf-8")
     rendered = template.format(
         startframe=1,
         interval=1,
